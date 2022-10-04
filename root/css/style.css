@@ -1,0 +1,567 @@
+/* -----------------------------------------------------------------------------------En esta parte del archivo css, se incluye la decoración de la pagina EN GENERAL, del body, header, main y footer; tambien se especifica los detalles de aquellos elementos que tienen participacioón en distintas zonas de la pagína HTML---------------------------------------------------------------------------------*/
+
+body        {
+    width:              100vw;
+    display:            flex;
+    flex-direction:     column;
+    justify-content:    center;
+    align-items:        center;
+    box-sizing:         sizing-box;
+    margin:             0;
+    padding:            0;
+    font-family:        'Be Vietnam Pro', sans-serif;
+    font-size:          16px;
+}
+
+header      {
+    width:              70vw;
+    display:            flex;
+    flex-direction:     row;
+    justify-content:    space-between;
+    align-items:        center;
+    background-color: #ffffff;
+    margin:             50px 0 25px 0;
+}
+
+main        {
+    width:              70vw;
+    display:            flex;
+    flex-direction:     column;
+    justify-content:    center;
+    align-items:        center;
+    background-color: #ffffff;
+    margin:             0 0 100px 0;
+}
+
+footer      {
+    width:              70vw;
+    display:            flex;
+    flex-direction:     column;
+    justify-content:    center;
+    align-items:        center;
+    background-color: #ffffff;
+    margin:auto         100px 0 0 0;
+}
+
+a           {
+    text-decoration:    none;
+}
+
+.getstarted {
+    width:              134px;
+    height:             44px;
+    padding:            10px;
+    background:       #8B48BF;
+    border-radius:      50px;
+    font-weight:        700;
+    border:             none;
+    color:            #ffffff;
+    box-shadow:         0px 4px 7px rgba(0, 0, 0, 1);
+    transition:
+        background-color    150ms,
+        color               150ms;
+}
+
+#updatetext {
+    width:              200px;
+    height:             20px;
+    padding:            10px;
+    margin:             0 10px 0 0;
+    border-radius:      50px;
+    font-style:         normal;
+    font-weight:        500;
+    background-color: #FFFFFF;
+    border: none;
+    order:              0;
+}
+
+#updatebut {
+    width:              60px;
+    height:             40px;
+    background-color: #8B48BF;
+    border-radius:      50px;
+    font-style:         normal;
+    font-weight:        1500;
+    color:            #FFFFFF;
+    order:              1;
+    box-shadow:         0px 4px 7px rgba(0, 0, 0, 1);
+    border:             none;
+    transition:
+        background-color    150ms,
+        color               150ms;
+}
+
+/*--------------------HEADER, QUE CONTIENE SECCION NAV-------------------*/
+nav         {   
+    display:            flex;
+    justify-content:    space-between;
+}
+
+nav p       {
+    margin:             0 8px;
+    color:            #242E52;
+    font-size:          10px;
+    font-weight:        700;
+}
+
+.hamburgmenu{
+    display: none;
+}
+/*--------------------MAIN, QUE CONTIENE 3 SECCIONES: INTRO, MID, LAST-------------------*/
+
+/* ++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++MAIN INTRO++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++ */
+.intro          {
+    display:            flex;
+    flex-direction:     row;
+    justify-content:    space-between;
+    margin:             50px 0;
+}
+
+.intro p        {
+    width:              70%;
+    text-align:         justify;
+    color:              #000000;
+    font-weight:        400;
+    margin:             0 0 20px 0;
+}
+
+.sec-intro_izq  {
+    width:              40%;
+}
+
+h1              {
+    font-weight:        700;
+    font-size:          40px;
+    color:            #232C50; 
+}
+
+.sec-intro_der  {
+    width:              50%;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++MAIN MID+++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++ */
+.mid                {
+    display:            flex;
+    flex-direction:     row;
+    justify-content:    space-around;
+    align-items:        flex-start;
+    margin:             50px 0;
+}
+
+.sec-mid_izq{
+    width:              50%;
+    margin:             0 5px 0 10px;        
+}
+
+.sec-mid_izq h2     {
+    color:              #232851;
+    font-size:          36px;
+    margin:             16px 0 0 0;
+}
+
+.sec-mid_izq p      {
+    width:              65%;        
+    color:              #000000;
+    font-weight:        400;
+}
+
+.sec-mid_der{
+    width:              45%;
+    margin:             0 5px 0 10px;        
+}
+
+.sec-mid_der p      {
+    color:            #B3B2B7;
+    text-align:         justify;
+    margin:             0 0 30px 95px;
+}
+
+.article            {
+    width:              100%;
+    display:            flex;
+    justify-content:    flex-start;
+    align-items:        center;
+}
+
+.tit_               {
+    width:              100%;
+    display:            flex;
+    flex-direction:     row;
+    justify-content:    flex-start;
+    align-items:        center;
+}
+
+.tit_ h3            {
+    color:            #323851;
+}
+
+.numeral            {
+    width:              70px;
+    height:             36px;
+    display:            flex;
+    flex-direction:     row;
+    justify-content:    center;
+    align-items:        center;
+    margin:             0 25px 0 0;
+    background-color: #8B48BF;
+    border-radius:      50px;
+    color:            #FFFFFF;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++MAIN LAST++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++ */
+.last           {
+    width:              100%;
+    display:            flex;
+    flex-direction:     column;
+    justify-content:    space-around;
+    align-items:        center;
+    margin:             50px 0;
+}
+
+.last h2        {
+    margin:             0 0 80px 0;
+    color:            #242E53;
+    font-size:          40px;
+}
+
+.areatest       {
+    width:              100%;
+    display:            flex;
+    flex-direction:     row;
+    justify-content:    space-around;
+    align-items:        flex-start;
+    margin-bottom:      30px;
+}
+
+.testimonio     {
+    width:              33.333%;
+    display:            flex;
+    flex-direction:     column;
+    justify-content:    center;
+    align-items:        center;
+    padding:            12px;
+    transition:         all 240ms;
+}
+
+.testimonio img {
+    width:              70px;
+    height:             70px;
+}
+.testimonio h3  {
+    color:            #3F4868;
+}
+
+.testimonio p   {
+    width:              75%;
+    text-align:         center;
+    font-style:         normal;
+    color:            #B9B9C1;
+}
+
+.last button    {
+    margin:             40px 0 0 0;
+}
+
+/*--------------------FOOTER, FOOTER SUPERIOR Y EL FOOTER INFERIOR-------------------*/
+
+/* ========     footer parte superior       ======== */
+.footersuperior     {
+    width:              100%;
+    display:            flex;
+    flex-direction:     row;
+    justify-content:    space-around;
+    align-items:        center;
+    background-color: #8B48BF;
+    padding:            20px 0;
+}
+
+.footersuperior p   {
+    width:              40%;
+    color:            #FFFFFF;
+    font-weight:        700;
+    font-size:          40px;
+    text-align:         left;
+}
+
+.footersuperior .getstarted{
+    color:            #8B48BF;
+    background-color: #FFFFFF;
+}
+/* ========     footer parte inferior       ========*/
+.footerinferior    {
+    width:              100%;
+    display:            flex;
+    flex-direction:     column;
+    justify-content:    space-around;
+    align-items:        center;
+    background-color: #1E1E26;
+    color:            #FFFFFF;
+}
+
+.contenido-fi    {
+    width:              100%;
+    display:            flex;
+    flex-direction:     row;
+    justify-content:    space-around;
+    align-items:        center;
+    background-color: #1E1E26;
+    color:            #FFFFFF;
+    margin:             30px 0 0 0;  
+}
+
+/* -------------------------caja 1, logo e iconos redes sociales ; "fbox" indica box de footer*/
+.fbox1              {
+    display:            flex;
+    flex-direction:     column;
+    justify-content:    center;
+    align-items:        center;
+    margin:             0 0 0 25px;
+}
+
+.logofooter         {
+    margin:             0 15px 30px 0; 
+}
+
+.socialmedia        {
+    display:            flex;
+    flex-direction:     row;
+    margin:             33px 0 0 0;
+}
+
+.media              {
+    width:              20px;
+    height:             20px;
+    margin:             0 13px 0 0;
+}
+
+/* --- caja 2 y 3 unidas en una caja 23 --- */
+.fbox23{
+    width:              25%;
+    display:            flex;
+    flex-direction:     row;
+    justify-content:    space-between;
+    align-items:        center;
+}
+
+.fbox2             {
+    margin:             0 0 10px 0;
+}
+
+.fbox3              {
+    margin:             0 0 40px 0;
+}
+
+.fbox2 p, .fbox3 p {
+    font-size:          12px;
+    color:              #FFFFFF;
+    font-weight:        700;
+    margin:             18px 0px;
+}
+
+/* -------------------------caja 4, formulario */
+.fbox4 form         {
+    display:            flex;
+    flex-direction:     row;
+    justify-content:    flex-end;
+    align-items:        center;
+    margin:             0 0 90px 0;
+}
+
+.copyright          {
+    position:           relative;
+    left:               31.5%;
+    margin:             2px 0 35px 60px;
+    color:            #8C8C94;
+    font-size:          12px;
+    text-align:         right;
+}
+/* +++++++++++++++++++ */
+/* Uso de Pseudoclases */
+/* +++++++++++++++++++ */
+
+.getstarted:hover       {
+    color:              #8B48BF;
+    background-color:   #c6b4d3;
+}
+
+#getstarted_white:hover {
+    color:              #ffffff;
+    background-color:   #bfa4d3;
+}
+
+#updatebut:hover {
+    color:              #8B48BF;
+    background-color:   #c6b4d3;
+}
+
+nav p:hover             {  
+    color:              #8B48BF;
+    cursor:               pointer;
+}
+
+.fbox23 p:hover          {
+    color:              #8B48BF;
+    cursor:               pointer;
+}
+
+.testimonio:hover       {
+    transform:          scale(1.25);
+}
+/* ----------------condiciones responsive-----------------*/
+@media (max-width: 480px)           {
+    header, main, footer            {
+        width:              100vw;
+        box-sizing: sizing-box;
+    }
+
+    nav, header .getstarted         {
+        display:            none;
+    }
+
+    header {
+        justify-content:    space-around;
+    }
+
+    .hamburgmenu                    {
+        display:            block;
+    }
+
+    .intro                          {
+        flex-direction:     column;
+        justify-content:    center;
+        align-items:        center;
+    }
+
+    .sec-intro_izq, .sec-intro_der  {
+        width:              96vw;
+        display:            flex;
+        flex-direction:     column;
+        justify-content:    center;
+        align-items:        center;
+    }
+
+    .sec-intro_der                  {
+        order:              -1;
+    }
+
+    .sec-intro_izq h1, .sec-intro_izq p{
+        margin:             10px 1%;
+        text-align:         center;
+    }
+
+    .mid                            {
+        flex-direction:     column;
+    }
+
+    .sec-mid_izq, .sec-mid_der      {
+        width:              96vw;
+        margin:             0;
+        display:            flex;
+        flex-direction:     column;
+        justify-content:    center;
+        align-items:        center;
+    }
+
+    .sec-mid_izq h2, .sec-mid_izq p {
+        text-align:         center;
+    }
+
+    .sec-mid_izq p {
+        text-align:         center;
+        margin:             50px 0 80px 0;
+    }
+
+    .tit_                           {
+        background-color: rgba(139, 72, 191, 0.3);
+        border-radius:      50px 0 0 50px;
+        width:              90vw;
+        height:             35px;
+        margin:             0 0 30px 0;
+    }
+
+    .sec-mid_der p                  {
+        width:              80vw;
+        margin:             30px 0 30px 12px;
+    }
+
+    .n1{
+        display:            none;
+    }
+
+    .testimonio                     {
+        width:              98vw;
+    }
+
+    .testimonio p                   {
+        width:              95vw;
+    }
+
+    .footersuperior                 {
+        width:              100vw;
+        flex-direction:     column;
+    }
+    
+    .footersuperior p               {
+        width:              75vw;
+        text-align:         center;
+    }
+
+    .footersuperior button          {
+        margin:             0 0 60px 0;
+    }
+
+    .footerinferior                 {
+        width:              100vw;
+        flex-direction:     column;
+    }
+    
+    .contenido-fi                {
+        width:              96vw;
+        flex-direction:     column;
+    }
+    
+    .fbox1                          {
+        width:              96vw;
+        order:              3;
+    }
+
+    .logofooter                     {
+        order:              2;
+    }
+    
+    .socialmedia                    {
+        width:              90vw;
+        justify-content:    space-around;
+        margin:             0 0 40px 0;
+    }
+
+    .fbox23                         {
+        width:              60vw;
+        order:              2;
+    }
+    
+    .fbox4                          {
+        order:              1;
+    }
+
+    .fbox4 form                     {
+        margin:             30px 0 30px 0;
+    }
+
+    #updatetext                     {
+        width:              60vw;
+    }
+
+    .copyright                      {
+        left:               -5%;
+    }
+}
+
+
+
